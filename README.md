@@ -35,11 +35,11 @@ So let's describe how does it work:
 
 ## Data Base
 
-
+The dataBase is constructed by Mongodb. It is possible to be connected with loopback 3.0 as user, and all the basic features are supported.
 
 In the dataBase, we have the values of:
 
-* Strawberry
+* Strawberrys
 * Bean
 * Pepper
 * Melon
@@ -54,4 +54,4 @@ In the dataBase, we have the values of:
 
 # UI
 
-Constructed with angular.
+Constructed with angular. It can be connected with the dataBase with http requests, on the port which loopback is set.
