@@ -35,6 +35,8 @@ So let's describe how does it work:
 
 ## Data Base
 
+
+
 In the dataBase, we have the values of:
 
 * Strawberry
@@ -49,3 +51,7 @@ In the dataBase, we have the values of:
 * Gypsophile
 * Clove
 * Cucumber
+
+# UI
+
+Constructed with angular.
