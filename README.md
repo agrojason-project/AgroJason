@@ -1,10 +1,10 @@
 ![Image](images/logo.png)
 
-##Description
+## Description
 
 AgroJason Project, is an automated hydroponic greenhouse which maintains the conditions of humidity, pH, light and temperature. The desirable values are saved in a database. It has 4 separate units, in order to have parallel cultivation. These units are connected to a UI system, so that the system is easily controlled by a user.
 
-##Control Unit
+## Control Unit
 
 Each unit has its own control unit. It is implemented on Arduino mini board. It has its own sensors in order to get values of:
 Humidity: DHT11
@@ -32,7 +32,7 @@ So let's describe how does it work:
 * If light is high, close the curtains.
 * For pH, we are not ready in this version to force it.
 
-##Data Base
+## Data Base
 
 In the dataBase, we have the values of:
 
