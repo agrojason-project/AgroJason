@@ -7,11 +7,12 @@ AgroJason Project, is an automated hydroponic greenhouse which maintains the con
 ## Control Unit
 
 Each unit has its own control unit. It is implemented on Arduino mini board. It has its own sensors in order to get values of:
-Humidity: DHT11
-Substrate humidity: Soil Humidity Hygrometer Moisture Detection Sensor
-Light: Photoresistor
-Temperature :DHT11 (it gets values of temperature and humidity)
-PH :Liquid PH Sensor
+
+* Humidity: DHT11
+* Substrate humidity: Soil Humidity Hygrometer Moisture Detection Sensor
+* Light: Photoresistor
+* Temperature :DHT11 (it gets values of temperature and humidity)
+* PH :Liquid PH Sensor
 
 So, as we get the condition values, we try to maintain them in the correct sum. In order to achieve this we have installed some mechanisms. Those are:
 
