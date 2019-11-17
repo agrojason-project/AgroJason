@@ -33,13 +33,13 @@ So let's describe how does it work:
 * If light is high, close the curtains.
 * For pH, we are not ready in this version to force it.
 
-## Data Base
+## DataBase
 
-The dataBase is constructed by Mongodb. It is possible to be connected with loopback 3.0 as user, and all the basic features are supported.
+The dataBase is constructed by Mongodb. Connection between the UI and the database is implented via loopback 3.0. Functionalities supported include loggin in as user and the related basic features.
 
 In the dataBase, we have the values of:
 
-* Strawberrys
+* Strawberry
 * Bean
 * Pepper
 * Melon
@@ -52,6 +52,12 @@ In the dataBase, we have the values of:
 * Clove
 * Cucumber
 
-# UI
+## UI
 
-Constructed with angular. It can be connected with the dataBase with http requests, on the port which loopback is set.
+Angular was employed for the creation of the UI, to enable for easy deployment both as a website or as an application.
+
+## Technical Specs
+
+Each unit has the dimensions described in this picture:
+
+![Image](images/dimensions.png)
